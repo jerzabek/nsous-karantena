@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed7bf104b996d4d3188f7a543aa701aa",
+    "revision": "b8b85ead13bc691f0f344c7e25f78f5f",
     "url": "/nsous-karantena/index.html"
   },
   {
-    "revision": "f12fa5bd7492b51abc14",
+    "revision": "bd8a5fdd1f026f2d4dab",
     "url": "/nsous-karantena/static/css/main.f2fe68aa.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nsous-karantena/static/js/2.53bd4d33.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f12fa5bd7492b51abc14",
-    "url": "/nsous-karantena/static/js/main.cf1b8000.chunk.js"
+    "revision": "bd8a5fdd1f026f2d4dab",
+    "url": "/nsous-karantena/static/js/main.1ec5d2b6.chunk.js"
   },
   {
     "revision": "b2d33c5bccf46fc6f509",
