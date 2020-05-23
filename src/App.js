@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import Header from './Header'
+import Person from './Person'
+import Dan from './Dan'
+import StoJeOvo from './StoJeOvo'
+import Timeline from './Timeline'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='h-100'>
+      <Header />
+      <div className='container-lg pb-5 mb-5'>
+        
+        <StoJeOvo />
+
+        <div className='w-100 d-flex align-items-center justify-content-center'>
+          <div className='d-flex flex-wrap justify-content-around ljudi '>
+            <Person ime='lorena' tag='lorena.farkac' />
+            <Person ime='lovro' tag='lovrohh' />
+            <Person ime='ezekijel' tag='ezekijel' />
+            <Person ime='jarza' tag='ivanjerzabek' />
+            <Person ime='morana' tag='m_moranaa' />
+            <Person ime='ivona' tag='neshvaceno' />
+            <Person ime='petra' tag='petra.poljakk' />
+            <Person ime='valentino' tag='valentino_janjac' />
+            <Person ime='file' tag='yung_file' />
+            <Person ime='dora' tag='dora_irl' />
+          </div>
+        </div>
+        
+        <Timeline />
+
+        {/* <Dan dan={1} /> */}
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

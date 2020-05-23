@@ -1,38 +1,204 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+html, body, #root {
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headerklasa {
+  height: 75%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.titl {
+  font-family: 'Chelsea Market';
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.stripes {
+  background-image: linear-gradient(to right, #F66572aa, #F66572aa 20%, #F4B6BBaa 20%, #F4B6BBaa 40%,#FDE09Caa 40%, #FDE09Caa 60%,#88C1F6aa 60%, #88C1F6aa 80%,#666666aa 80%, #666666aa 100%);
+}
+
+.crnitekst {
+  color: #000;
+  background-color: #fff;
+  padding: 0.75em;
+  opacity: 1;
+}
+
+.crnitekst.big {
+  width: auto;
+}
+
+.malogore {
+  transform: translateY(-50%);
+}
+
+.ljudi {
+  max-width: 60%;
+}
+
+.osoba {
+  -webkit-box-shadow: 10px 21px 34px -23px rgba(0,0,0,0.61);
+  -moz-box-shadow: 10px 21px 34px -23px rgba(0,0,0,0.61);
+  box-shadow: 10px 21px 34px -23px rgba(0,0,0,0.61);  
+  transition: all 100ms linear;
+}
+
+.osoba:hover {
+  -webkit-box-shadow: 10px 21px 34px -15px rgba(0,0,0,0.61);
+  -moz-box-shadow: 10px 21px 34px -15px rgba(0,0,0,0.61);
+  box-shadow: 10px 21px 34px -15px rgba(0,0,0,0.61);
+  transform: translate(-0.3rem, -0.3rem);
+  transition: all 100ms linear;
+}
+
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  
+}
+
+.timeline ul li {
+  margin-bottom: 50px;
+  list-style-type: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.timeline ul {
+  padding: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.point {
+  min-width: 20px;
+  height: 20px;
+  background-color: #F4B6BB;
+  border-radius: 100%;
+  z-index: 2;
+  border: 3px #333333 solid;
+  position: relative;
+  left: 1px;
+}
+
+.timeline ul li .content {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.timeline ul li:nth-child(odd) .content {
+  padding-left: 0;
+}
+
+.timeline ul li:nth-child(odd) .date {
+  padding-right: 0;
+}
+
+.timeline ul li:nth-child(even) .content {
+  padding-right: 0;
+}
+
+.timeline ul li:nth-child(even) .date {
+  padding-left: 0;
+}
+
+.timeline ul li .date {
+  width: 50%;
+  padding: 0 20px;
+  font-weight: normal;
+}
+
+.timeline ul li .date h4 {
+  background-color: #F66572aa;
+  width: fit-content;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.timeline ul li:nth-child(5n) .date h4 {
+  background-color: #F66572aa;
+}
+
+.timeline ul li:nth-child(5n+1) .date h4 {
+  background-color: #F4B6BBaa;
+}
+
+.timeline ul li:nth-child(5n+2) .date h4 {
+  background-color: #FDE09Caa;
+}
+
+.timeline ul li:nth-child(5n+3) .date h4 {
+  background-color: #88C1F6aa;
+}
+
+.timeline ul li:nth-child(5n+4) .date h4 {
+  background-color: #666666aa;
+}
+
+.timeline ul li .content h3 {
+  padding: 10px 20px;
+  margin-bottom: 0;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.timeline ul li:nth-child(5n) .content h3 {
+  background-color: #F66572aa;
+}
+
+.timeline ul li:nth-child(5n+1) .content h3 {
+  background-color: #F4B6BBaa;
+}
+
+.timeline ul li:nth-child(5n+2) .content h3 {
+  background-color: #FDE09Caa;
+}
+
+.timeline ul li:nth-child(5n+3) .content h3 {
+  background-color: #88C1F6aa;
+}
+
+.timeline ul li:nth-child(5n+4) .content h3 {
+  background-color: #666666aa;
+}
+
+.timeline ul li .content p {
+  background-color: #ede3fa77;
+  margin-top: 0;
+  padding: 0.7rem 1.3rem;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.timeline ul li:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.timeline ul li:nth-child(even) .date h4 {
+  float: right
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 3px;
+  left: 50%;
+  background-color: #333333;
+}
+
+@media only screen and (max-width: 768px) {
+  .headerklasa {
+    height: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .crnitekst.big {
+    width: 100%;
+  }
+
+  .ljudi {
+    max-width: 100%;
   }
 }
