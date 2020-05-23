@@ -107,7 +107,7 @@ html, body, #root {
   font-weight: normal;
 }
 
-.timeline ul li .date h4 {
+.timeline ul li .date p {
   background-color: #F66572aa;
   width: fit-content;
   text-align: center;
@@ -115,27 +115,27 @@ html, body, #root {
   border-radius: 10px;
 }
 
-.timeline ul li:nth-child(5n) .date h4 {
+.timeline ul li:nth-child(5n) .date p {
   background-color: #F66572aa;
 }
 
-.timeline ul li:nth-child(5n+1) .date h4 {
+.timeline ul li:nth-child(5n+1) .date p {
   background-color: #F4B6BBaa;
 }
 
-.timeline ul li:nth-child(5n+2) .date h4 {
+.timeline ul li:nth-child(5n+2) .date p {
   background-color: #FDE09Caa;
 }
 
-.timeline ul li:nth-child(5n+3) .date h4 {
+.timeline ul li:nth-child(5n+3) .date p {
   background-color: #88C1F6aa;
 }
 
-.timeline ul li:nth-child(5n+4) .date h4 {
+.timeline ul li:nth-child(5n+4) .date p {
   background-color: #666666aa;
 }
 
-.timeline ul li .content h3 {
+.timeline ul li .content h6 {
   padding: 10px 20px;
   margin-bottom: 0;
   text-align: center;
@@ -143,23 +143,23 @@ html, body, #root {
   border-top-right-radius: 10px;
 }
 
-.timeline ul li:nth-child(5n) .content h3 {
+.timeline ul li:nth-child(5n) .content h6 {
   background-color: #F66572aa;
 }
 
-.timeline ul li:nth-child(5n+1) .content h3 {
+.timeline ul li:nth-child(5n+1) .content h6 {
   background-color: #F4B6BBaa;
 }
 
-.timeline ul li:nth-child(5n+2) .content h3 {
+.timeline ul li:nth-child(5n+2) .content h6 {
   background-color: #FDE09Caa;
 }
 
-.timeline ul li:nth-child(5n+3) .content h3 {
+.timeline ul li:nth-child(5n+3) .content h6 {
   background-color: #88C1F6aa;
 }
 
-.timeline ul li:nth-child(5n+4) .content h3 {
+.timeline ul li:nth-child(5n+4) .content h6 {
   background-color: #666666aa;
 }
 
@@ -181,7 +181,7 @@ a.bijelo {
   flex-direction: row-reverse;
 }
 
-.timeline ul li:nth-child(even) .date h4 {
+.timeline ul li:nth-child(even) .date p {
   float: right
 }
 
