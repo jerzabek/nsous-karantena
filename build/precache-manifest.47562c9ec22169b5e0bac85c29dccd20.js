@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8b85ead13bc691f0f344c7e25f78f5f",
+    "revision": "9a6d932b476a2e6fd1770a9d49699b09",
     "url": "/nsous-karantena/index.html"
   },
   {
-    "revision": "bd8a5fdd1f026f2d4dab",
-    "url": "/nsous-karantena/static/css/main.f2fe68aa.chunk.css"
+    "revision": "04870279fc3050f73c7e",
+    "url": "/nsous-karantena/static/css/main.08001eed.chunk.css"
   },
   {
-    "revision": "022323c111eae81cfe98",
-    "url": "/nsous-karantena/static/js/2.53bd4d33.chunk.js"
+    "revision": "47dbe58e4433287f5443",
+    "url": "/nsous-karantena/static/js/2.946c3048.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/nsous-karantena/static/js/2.53bd4d33.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/nsous-karantena/static/js/2.946c3048.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bd8a5fdd1f026f2d4dab",
-    "url": "/nsous-karantena/static/js/main.1ec5d2b6.chunk.js"
+    "revision": "04870279fc3050f73c7e",
+    "url": "/nsous-karantena/static/js/main.86543ba5.chunk.js"
   },
   {
     "revision": "b2d33c5bccf46fc6f509",

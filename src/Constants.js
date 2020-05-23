@@ -50,5 +50,16 @@ var upoznavanje = [
   ''
 ]
 
+const tagovi = []
+tagovi['lorena'] = 'lorena.farkac'
+tagovi['lovro'] = 'lovrohh'
+tagovi['ezekijel'] = 'ezekijel'
+tagovi['jarza'] = 'ivanjerzabek'
+tagovi['morana'] = 'm_moranaa'
+tagovi['ivona'] = 'neshvaceno'
+tagovi['petra'] = 'petra.poljak'
+tagovi['valentino'] = 'valentino_janjac'
+tagovi['file'] = 'yung_file'
+tagovi['dora'] = 'dora_irl'
 
-export { prviDan, drugiDan, treciDan, cetvrtiDan, petiDan, sestiDan, sedmiDan, osmiDan, devetiDan, desetiDan, jedanaestiDan, dvanaestiDan, upoznavanje }
+export { prviDan, drugiDan, treciDan, cetvrtiDan, petiDan, sestiDan, sedmiDan, osmiDan, devetiDan, desetiDan, jedanaestiDan, dvanaestiDan, upoznavanje, tagovi }

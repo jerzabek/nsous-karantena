@@ -206,6 +206,10 @@ a.bijelo {
   padding-bottom: 4rem;
 }
 
+.pointer:hover {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) {
   .headerklasa {
     height: 100%;
