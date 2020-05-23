@@ -9,7 +9,7 @@ import {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename='/nsous-karantena'>
       <App />
     </Router>
   </React.StrictMode>,
