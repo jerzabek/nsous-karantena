@@ -2,7 +2,7 @@ import React from 'react';
 
 const Timeline = () => {
   return (
-    <div className='pt-3 mb-5 d-flex flex-column justify-content-center align-items-center'>
+    <div className='pt-3 d-flex flex-column justify-content-center align-items-center'>
       <h1 className="my-5">Timeline challenga</h1>
       <div className='timeline my-1 py-2'>
         <ul>
@@ -13,7 +13,7 @@ const Timeline = () => {
             </div>
             <div className='point'></div>
             <div className='date'>
-              <h4>11.5.2020.</h4>
+              <h4 className='text-small'>11.5.2020. dan #0</h4>
             </div>
           </li>
           <li>
@@ -23,7 +23,7 @@ const Timeline = () => {
             </div>
             <div className='point'></div>
             <div className='date'>
-              <h4>14.5.2020.</h4>
+              <h4 className='text-small'>14.5.2020.  dan #3</h4>
             </div>
           </li>
           <li>
@@ -33,7 +33,7 @@ const Timeline = () => {
             </div>
             <div className='point'></div>
             <div className='date'>
-              <h4>17.5.2020.</h4>
+              <h4 className='text-small'>17.5.2020. dan #6</h4>
             </div>
           </li>
           <li>
@@ -43,7 +43,7 @@ const Timeline = () => {
             </div>
             <div className='point'></div>
             <div className='date'>
-              <h4>17.5.2020.</h4>
+              <h4 className='text-small'>17.5.2020. dan #6</h4>
             </div>
           </li>
           <li>
@@ -53,7 +53,7 @@ const Timeline = () => {
             </div>
             <div className='point'></div>
             <div className='date'>
-              <h4>18.5.2020.</h4>
+              <h4 className='text-small'>18.5.2020. dan #7</h4>
             </div>
           </li>
           <li>
@@ -63,7 +63,7 @@ const Timeline = () => {
             </div>
             <div className='point'></div>
             <div className='date'>
-              <h4>20.5.2020.</h4>
+              <h4 className='text-small'>20.5.2020. dan #9</h4>
             </div>
           </li>
           <li>
@@ -73,7 +73,7 @@ const Timeline = () => {
             </div>
             <div className='point'></div>
             <div className='date'>
-              <h4>21.5.2020.</h4>
+              <h4 className='text-small'>21.5.2020. dan #10</h4>
             </div>
           </li>
           <li>
@@ -83,7 +83,7 @@ const Timeline = () => {
             </div>
             <div className='point'></div>
             <div className='date'>
-              <h4>22.5.2020.</h4>
+              <h4 className='text-small'>22.5.2020. dan #11</h4>
             </div>
           </li>
           <li>
@@ -92,6 +92,9 @@ const Timeline = () => {
               <p>još traje haha</p>
             </div>
             <div className='point'></div>
+            <div className='date'>
+              {/* <h4 className='text-small'>22.5.2020.</h4> */}
+            </div>
           </li>
         </ul>
       </div>

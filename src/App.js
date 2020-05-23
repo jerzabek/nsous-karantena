@@ -5,6 +5,7 @@ import Person from './Person'
 import Dan from './Dan'
 import StoJeOvo from './StoJeOvo'
 import Timeline from './Timeline'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
 
         {/* <Dan dan={1} /> */}
       </div>
+
+      <Footer />
     </div>
   )
 }

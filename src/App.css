@@ -172,6 +172,11 @@ html, body, #root {
   border-bottom-right-radius: 10px;
 }
 
+a.bijelo {
+  text-decoration: underline;
+  color: white;
+}
+
 .timeline ul li:nth-child(even) {
   flex-direction: row-reverse;
 }
@@ -187,6 +192,13 @@ html, body, #root {
   width: 3px;
   left: 50%;
   background-color: #333333;
+}
+
+.footer {
+  background-color: #2E4053;
+  color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
 }
 
 @media only screen and (max-width: 768px) {
