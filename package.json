@@ -1,7 +1,8 @@
 {
   "name": "nsous_karantena",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://jerzabek.github.io/nsous-karantena/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
