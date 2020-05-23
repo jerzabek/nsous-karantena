@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/nsous-karantena/static/css/main.f2fe68aa.chunk.css",
-    "main.js": "/nsous-karantena/static/js/main.cf1b8000.chunk.js",
-    "main.js.map": "/nsous-karantena/static/js/main.cf1b8000.chunk.js.map",
+    "main.js": "/nsous-karantena/static/js/main.1ec5d2b6.chunk.js",
+    "main.js.map": "/nsous-karantena/static/js/main.1ec5d2b6.chunk.js.map",
     "runtime-main.js": "/nsous-karantena/static/js/runtime-main.ca576e04.js",
     "runtime-main.js.map": "/nsous-karantena/static/js/runtime-main.ca576e04.js.map",
     "static/js/2.53bd4d33.chunk.js": "/nsous-karantena/static/js/2.53bd4d33.chunk.js",
     "static/js/2.53bd4d33.chunk.js.map": "/nsous-karantena/static/js/2.53bd4d33.chunk.js.map",
     "index.html": "/nsous-karantena/index.html",
-    "precache-manifest.3bfdf7db99f9755a877a349c2f7225d2.js": "/nsous-karantena/precache-manifest.3bfdf7db99f9755a877a349c2f7225d2.js",
+    "precache-manifest.38cd29c0d0200807fa2403ace840c46d.js": "/nsous-karantena/precache-manifest.38cd29c0d0200807fa2403ace840c46d.js",
     "service-worker.js": "/nsous-karantena/service-worker.js",
     "static/css/main.f2fe68aa.chunk.css.map": "/nsous-karantena/static/css/main.f2fe68aa.chunk.css.map",
     "static/js/2.53bd4d33.chunk.js.LICENSE.txt": "/nsous-karantena/static/js/2.53bd4d33.chunk.js.LICENSE.txt",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.ca576e04.js",
     "static/js/2.53bd4d33.chunk.js",
     "static/css/main.f2fe68aa.chunk.css",
-    "static/js/main.cf1b8000.chunk.js"
+    "static/js/main.1ec5d2b6.chunk.js"
   ]
 }
