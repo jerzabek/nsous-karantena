@@ -6,6 +6,7 @@ import StoJeOvo from './StoJeOvo'
 import Timeline from './Timeline'
 import Stori from './Stori'
 import Footer from './Footer'
+import ScrollToTop from './ScrollToTop'
 import {
   Switch,
   Route,
@@ -16,12 +17,11 @@ import { tagovi } from './Constants'
 function App() {
   let location = useLocation()
 
-  
-
   let imeRute = location.pathname.replace('/', '').replace('nsous-karantena', '')
 
   return (
     <div className='h-100'>
+      <ScrollToTop />
       <Header />
       <div className='container-lg pb-5 mb-5'>
 
