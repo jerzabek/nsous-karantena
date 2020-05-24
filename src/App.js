@@ -18,7 +18,7 @@ function App() {
 
   
 
-  let imeRute = location.pathname.replace('/nsous-karantena', '')
+  let imeRute = location.pathname.replace('/', '').replace('nsous-karantena', '')
 
   return (
     <div className='h-100'>
