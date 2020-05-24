@@ -12,7 +12,7 @@ import {
   Route,
   useLocation
 } from "react-router-dom"
-import { tagovi } from './Constants'
+import { tagovi, linkovi } from './Constants'
 
 function App() {
   let location = useLocation()
@@ -22,11 +22,12 @@ function App() {
   return (
     <div className='h-100'>
       <ScrollToTop />
-      <Header />
-      <div className='container-lg pb-5 mb-5'>
 
-        <Switch>
-          <Route exact path='/'>
+      <Switch>
+        <Route exact path='/'>
+          <Header />
+
+          <div className='container-lg pb-5 mb-5'>
             <StoJeOvo />
 
             <div className='w-100 d-flex align-items-center justify-content-center'>
@@ -45,25 +46,34 @@ function App() {
             </div>
 
             <Timeline />
+          </div>
+        </Route>
 
-          </Route>
+        <Route path='/(lorena|lovro|ezekijel|jarza|morana|ivona|petra|valentino|file|dora)'>
+          <Header smol />
 
-          <Route path='/(lorena|lovro|ezekijel|jarza|morana|ivona|petra|valentino|file|dora)'>
-            <h1>OVA SEKCIJA STRANICE JE WORK IN PROGRESS SHUT UP NIJE GOTOVO AAAAAAAAAAA</h1>
-            <Person ime={imeRute} tag={tagovi[imeRute]} nolink />
-            <Stori ime={imeRute} />
-          </Route>
+          <div className='container-lg text-center pb-5 mb-5'>
+            <h2 className='my-5'>Ovo je {imeRute}!</h2>
+
+            <div className="mt-4 text-center d-flex flex-row justify-content-around flex-wrap align-items-center">
+              <Person xxl ime={imeRute} tag={tagovi[imeRute]} nolink />
+              <Stori ime={imeRute} link={linkovi[imeRute]} />
+            </div>
+          </div>
+        </Route>
 
 
-          <Route>
+        <Route>
+          <Header />
+
+          <div className='container-lg pb-5 mb-5'>
             <h1 className='mt-5 pt-4'>bruh: 404 not found wtf bro</h1>
-          </Route>
-        </Switch>
-
-      </div>
+          </div>
+        </Route>
+      </Switch>
 
       <Footer />
-    </div>
+    </div >
   )
 }
 

@@ -1,16 +1,15 @@
 import React from 'react'
 import './App.css'
 
-function App({ime, link}) {
+function Stori({ime, link}) {
   return (
-    <div className='stori'>
-      <p className='storiHeader'>{ime}</p>
-      <video width='300rem' controls>
-        <source src={link}/>
+    <div className='stori text-center'>
+      <video className='osoba noanim' width='300rem' controls>
+        <source src={require('./vids/' + link + '.mp4')}/>
         <p>Video nije dostupan, sori</p>
       </video>
     </div>
   )
 }
 
-export default App
+export default Stori

@@ -62,4 +62,17 @@ tagovi['valentino'] = 'valentino_janjac'
 tagovi['file'] = 'yung_file'
 tagovi['dora'] = 'dora_irl'
 
-export { prviDan, drugiDan, treciDan, cetvrtiDan, petiDan, sestiDan, sedmiDan, osmiDan, devetiDan, desetiDan, jedanaestiDan, dvanaestiDan, upoznavanje, tagovi }
+const linkovi = []
+linkovi['lorena'] = 'lorena'
+linkovi['lovro'] = 'lovro'
+linkovi['ezekijel'] = 'ezekijel'
+linkovi['jarza'] = 'jarza'
+linkovi['morana'] = 'morana'
+linkovi['ivona'] = 'ivona'
+linkovi['petra'] = 'petra'
+linkovi['valentino'] = 'valentino'
+linkovi['file'] = 'file_i_dora'
+linkovi['dora'] = 'file_i_dora'
+
+
+export { prviDan, drugiDan, treciDan, cetvrtiDan, petiDan, sestiDan, sedmiDan, osmiDan, devetiDan, desetiDan, jedanaestiDan, dvanaestiDan, upoznavanje, tagovi, linkovi }

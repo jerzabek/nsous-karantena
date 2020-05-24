@@ -1,32 +1,41 @@
 {
   "files": {
-    "main.css": "/nsous-karantena/static/css/main.08001eed.chunk.css",
-    "main.js": "/nsous-karantena/static/js/main.01e6042e.chunk.js",
-    "main.js.map": "/nsous-karantena/static/js/main.01e6042e.chunk.js.map",
+    "main.css": "/nsous-karantena/static/css/main.b6ff99c2.chunk.css",
+    "main.js": "/nsous-karantena/static/js/main.30957193.chunk.js",
+    "main.js.map": "/nsous-karantena/static/js/main.30957193.chunk.js.map",
     "runtime-main.js": "/nsous-karantena/static/js/runtime-main.ca576e04.js",
     "runtime-main.js.map": "/nsous-karantena/static/js/runtime-main.ca576e04.js.map",
-    "static/js/2.946c3048.chunk.js": "/nsous-karantena/static/js/2.946c3048.chunk.js",
-    "static/js/2.946c3048.chunk.js.map": "/nsous-karantena/static/js/2.946c3048.chunk.js.map",
+    "static/js/2.f1a63b2f.chunk.js": "/nsous-karantena/static/js/2.f1a63b2f.chunk.js",
+    "static/js/2.f1a63b2f.chunk.js.map": "/nsous-karantena/static/js/2.f1a63b2f.chunk.js.map",
     "index.html": "/nsous-karantena/index.html",
-    "precache-manifest.f023f7c55e01a578f40bae5336c9ca49.js": "/nsous-karantena/precache-manifest.f023f7c55e01a578f40bae5336c9ca49.js",
+    "precache-manifest.b0dd2d521085b0013b5737d120024571.js": "/nsous-karantena/precache-manifest.b0dd2d521085b0013b5737d120024571.js",
     "service-worker.js": "/nsous-karantena/service-worker.js",
-    "static/css/main.08001eed.chunk.css.map": "/nsous-karantena/static/css/main.08001eed.chunk.css.map",
-    "static/js/2.946c3048.chunk.js.LICENSE.txt": "/nsous-karantena/static/js/2.946c3048.chunk.js.LICENSE.txt",
+    "static/css/main.b6ff99c2.chunk.css.map": "/nsous-karantena/static/css/main.b6ff99c2.chunk.css.map",
+    "static/js/2.f1a63b2f.chunk.js.LICENSE.txt": "/nsous-karantena/static/js/2.f1a63b2f.chunk.js.LICENSE.txt",
     "static/media/dora.jpg": "/nsous-karantena/static/media/dora.687d33c9.jpg",
+    "static/media/ezekijel.mp4": "/nsous-karantena/static/media/ezekijel.18ce59c9.mp4",
     "static/media/ezekijel.jpg": "/nsous-karantena/static/media/ezekijel.6d0cc882.jpg",
     "static/media/file.jpg": "/nsous-karantena/static/media/file.24a816ff.jpg",
+    "static/media/file_i_dora.mp4": "/nsous-karantena/static/media/file_i_dora.44aab513.mp4",
+    "static/media/ivona.mp4": "/nsous-karantena/static/media/ivona.c4e2bd9f.mp4",
     "static/media/ivona.jpg": "/nsous-karantena/static/media/ivona.f8221f9a.jpg",
+    "static/media/jarza.mp4": "/nsous-karantena/static/media/jarza.3cdebe37.mp4",
     "static/media/jarza.jpg": "/nsous-karantena/static/media/jarza.5add7c71.jpg",
+    "static/media/lorena.mp4": "/nsous-karantena/static/media/lorena.911dab61.mp4",
     "static/media/lorena.jpg": "/nsous-karantena/static/media/lorena.d47a7ee0.jpg",
+    "static/media/lovro.mp4": "/nsous-karantena/static/media/lovro.36c8dcdd.mp4",
     "static/media/lovro.jpg": "/nsous-karantena/static/media/lovro.f6cef6ed.jpg",
+    "static/media/morana.mp4": "/nsous-karantena/static/media/morana.6e0703dc.mp4",
     "static/media/morana.jpg": "/nsous-karantena/static/media/morana.8ac111c8.jpg",
     "static/media/petra.jpg": "/nsous-karantena/static/media/petra.3553a225.jpg",
-    "static/media/valentino.jpg": "/nsous-karantena/static/media/valentino.265f2847.jpg"
+    "static/media/petra.mp4": "/nsous-karantena/static/media/petra.915c3142.mp4",
+    "static/media/valentino.jpg": "/nsous-karantena/static/media/valentino.265f2847.jpg",
+    "static/media/valentino.mp4": "/nsous-karantena/static/media/valentino.afc2516d.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.ca576e04.js",
-    "static/js/2.946c3048.chunk.js",
-    "static/css/main.08001eed.chunk.css",
-    "static/js/main.01e6042e.chunk.js"
+    "static/js/2.f1a63b2f.chunk.js",
+    "static/css/main.b6ff99c2.chunk.css",
+    "static/js/main.30957193.chunk.js"
   ]
 }
